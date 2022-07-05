@@ -1,0 +1,50 @@
+.nav-header{
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+width: 100%;
+}
+.lista-nav{
+    display: flex;
+    background-color: aqua;
+    justify-content: end;
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+.lista-nav-items{
+    display: inline-block;
+    margin: 10px;
+}
+.image-menu{
+    height: 4rem;
+}
+.nombre-empresa{
+    text-align: start;
+}
+@media screen and (min-width: 767px){
+    .image-menu{
+        height: 8rem;
+    }
+    .lista-nav{
+        display: flex;
+        background-color: aqua;
+        justify-content: end;
+        width: 75%;
+        font-size: 1rem;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (min-width: 735px){
+    .lista-nav{
+        width: 75%;
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .image-menu{
+        height: 5rem;
+    }
+}
